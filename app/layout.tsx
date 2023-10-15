@@ -1,3 +1,4 @@
+import { fraunces, open_sans } from './fonts'
 import './globals.css'
 import type { Metadata } from 'next'
 
@@ -12,7 +13,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="min-h-screen w-full">
+    <html
+      lang="sr-ME"
+      className={`min-h-screen w-full ${open_sans.variable} ${fraunces.variable}`}
+    >
       <body className="min-h-screen w-full">{children}</body>
     </html>
   )
