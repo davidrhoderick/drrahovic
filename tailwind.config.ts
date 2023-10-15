@@ -11,6 +11,13 @@ const config: Config = {
       headings: ['var(--font-fraunces)'],
       body: ['var(--font-open-sans)'],
     },
+    colors: {
+      darkTeal: '#296f8d',
+      mediumTeal: '#75b7d3',
+      white: '#fff',
+      black: '#323232',
+      lightTeal: '#ceeded',
+    },
   },
   plugins: [],
 }
