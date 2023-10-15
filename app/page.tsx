@@ -7,9 +7,9 @@ import {
 export default function Home() {
   return (
     <main>
-      <section className="bg-mediumTeal md:grid md:grid-cols-2 p-10 md:gap-10 md:items-center">
+      <section className="bg-mediumTeal md:grid md:grid-cols-2 p-10 md:gap-10 md:items-center md:h-screen">
         <div className="flex flex-col md:order-1">
-          <h1 className="font-headings text-white text-4xl md:text-7xl text-center leading-tight">
+          <h1 className="font-headings text-white text-4xl md:text-6xl lg:text-7xl text-center leading-tight">
             Ordinacija za ultrazvučnu dijagnostiku Dr Rahović
           </h1>
 
@@ -21,7 +21,7 @@ export default function Home() {
           </a>
         </div>
 
-        <div className="bg-[url('/elen-sher-nbU4xF3YUbw-unsplash.jpg')] bg-cover bg-no-repeat aspect-[2/3] rounded-lg md:order-0"></div>
+        <div className="bg-[url('/elen-sher-nbU4xF3YUbw-unsplash.jpg')] bg-cover bg-no-repeat h-96 md:h-full bg-center rounded-lg md:order-0"></div>
       </section>
 
       <section className="md:grid md:grid-cols-3 p-10 md:pr-0 md:gap-10 md:items-center">
