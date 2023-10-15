@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main>
       <section className="bg-mediumTeal grid grid-cols-2 p-10 gap-10 items-center">
-        <div className="bg-black h-96 rounded-lg"></div>
+        <div className="bg-[url('/elen-sher-nbU4xF3YUbw-unsplash.jpg')] bg-cover bg-no-repeat aspect-[2/3] rounded-lg"></div>
 
         <div className="flex flex-col">
           <h1 className="font-headings text-white text-7xl text-center leading-tight">
@@ -48,7 +48,7 @@ export default function Home() {
           </ul>
         </div>
 
-        <div className="bg-black h-96 rounded-l-lg"></div>
+        <div className="bg-[url('/elen-sher-qrTdlfGDRdI-unsplash.jpg')] bg-cover bg-no-repeat aspect-[2/3] rounded-l-lg"></div>
       </section>
 
       <section className="bg-lightTeal pt-10" id="zakazivanje-informacije">
