@@ -1,3 +1,9 @@
+import {
+  CalendarDaysIcon,
+  MapPinIcon,
+  PhoneIcon,
+} from '@heroicons/react/24/solid'
+
 export default function Home() {
   return (
     <main>
@@ -45,11 +51,53 @@ export default function Home() {
         <div className="bg-black h-96 rounded-l-lg"></div>
       </section>
 
-      <section className="bg-lightTeal">
-        <h2 className="text-center">Kontakt</h2>
+      <section className="bg-lightTeal pt-10" id="zakazivanje-informacije">
+        <h2 className="text-center font-headings text-6xl mb-10">Kontakt</h2>
 
-        <div className="grid grid-cols-2"></div>
+        <div className="flex p-10 justify-center flex-wrap">
+          <div className="flex items-center w-1/2 mb-20 justify-center">
+            <CalendarDaysIcon className="text-darkTeal h-10" />
+
+            <div className="ml-4">
+              <h3 className="font-headings text-3xl">Radno vrijeme</h3>
+              <p>Od ponedeljka do petka od 7:30 - 15:30h</p>
+            </div>
+          </div>
+
+          <div className="flex items-center w-1/2 mb-20 justify-center">
+            <PhoneIcon className="text-darkTeal h-10" />
+
+            <div className="ml-4">
+              <h3 className="font-headings text-3xl">Zakazivanje</h3>
+              <p>
+                Pozvati broj telefona{' '}
+                <a className="font-bold" href="tel:+38269050055">
+                  069 050 055
+                </a>{' '}
+                radnim danima od 8h do 16h.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex items-center w-1/2 mb-10 justify-center">
+            <MapPinIcon className="text-darkTeal h-10" />
+
+            <div className="ml-4">
+              <h3 className="font-headings text-3xl">Adresa</h3>
+              <address className="not-italic">
+                Voja Lješnjaka b.b.
+                <br />
+                Bijelo Polje
+              </address>
+            </div>
+          </div>
+        </div>
       </section>
+
+      <footer className="bg-darkTeal text-white p-1 text-center font-body">
+        &copy; {new Date().getFullYear()} Ordinacija za ultrazvučnu dijagnostiku
+        Dr Rahović
+      </footer>
     </main>
   )
 }
