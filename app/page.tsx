@@ -48,7 +48,7 @@ export default function Home() {
           </ul>
         </div>
 
-        <div className="bg-[url('/elen-sher-qrTdlfGDRdI-unsplash.jpg')] bg-cover bg-no-repeat aspect-[2/3] rounded-lg md:rounded-l-lg"></div>
+        <div className="bg-[url('/elen-sher-qrTdlfGDRdI-unsplash.jpg')] bg-cover bg-no-repeat aspect-2/3 rounded-lg md:rounded-l-lg"></div>
       </section>
 
       <section className="bg-lightTeal pt-10" id="zakazivanje-informacije">
